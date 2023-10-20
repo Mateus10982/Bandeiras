@@ -1,0 +1,91 @@
+#enviar{
+    position: absolute;
+    width: 15%;
+    height: 100%;
+    top: 0px;
+    left:85%;
+    background-image: url('imagem/lupa.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 0 5px 5px 0;
+    background-color: rgba(0, 107, 247, 0.87);}
+#procura{
+    position: absolute;
+    width: 85%;
+    height: 100%;
+    left: 0px;
+    top:0px;
+    background-color: rgba(34, 36, 37, 0.726);
+    border:1px rgba(3, 8, 14, 0.87) solid;
+    color:aliceblue;}
+#capsula{
+    position: fixed;
+    width: 42%;
+    height: 3%;
+    left: 32%;
+    top:3%;
+    background-color: rgb(78, 8, 8);
+    border:1px rgba(3, 8, 14, 0.87) solid;
+    color:aliceblue;
+    overflow: hidden;
+    border-radius: 6px 5px 5px 0;
+    box-shadow: 2px 5px 9px rgba(8, 8, 8, 0.849);
+    }
+    #tela{
+    position: fixed;
+    width: 98%;
+    height: 69%;
+    left: 1%;
+    top:10%;
+    background-color: rgb(255, 252, 252);
+    border:1px hsla(216, 63%, 3%, 0.774) solid;
+    color:aliceblue;
+    overflow: hidden;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 1px  1px  10px 3px rgba(8, 8, 8, 0.849);
+    }
+    #Bandeira{
+        position: absolute;
+        width: 98%;
+        height:30%;
+        top:2%;
+        left:1%;
+        border: 1px hsla(216, 63%, 3%, 0.774) solid;
+        border-radius: 3px 3px 3px 3px;
+    }
+    table{
+        position: absolute;
+        width: 42%;
+        height:49%;
+        top:35%;
+        left:5%;
+        color: black;
+        padding: 0%;
+    }
+    #table2{
+        position: absolute;
+        width: 36%;
+        height:20%;
+        top:35%;
+        left:52%;
+        color: black;
+        padding: 0%;
+        height: 1%;
+    }
+    tr{
+        position: relative;
+        padding: 0%;
+        height: 1%;
+    }
+    td{
+        position: relative;
+        width: 6%;
+    }
+    .info{
+        position: relative;
+        left: 0px;
+        border-bottom: 2px hsla(0, 33%, 3%, 0.884) solid;
+        border-left: 2px hsla(0, 33%, 3%, 0.884) solid;
+        padding: 0%;
+        height: 1%;
+    }
