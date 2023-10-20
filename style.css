@@ -79,6 +79,7 @@
         left: 0px;
         border-bottom: 2px hsla(0, 33%, 3%, 0.884) solid;
     }
-   h3{
+    h2{
+        left: 11%;
         color: black;
     }
