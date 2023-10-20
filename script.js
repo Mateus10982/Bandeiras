@@ -32,7 +32,7 @@ function lista(){
 for(let i=0; i< repositoriosPaises.length;++i){
     let option=document.createElement('option');
     option.value=`${repositoriosPaises[i].Nome}`;
-    option.innerHTML=`${repositoriosPaises[i].sigla},${repositoriosPaises[i].linguagens}`;
+    option.innerHTML=`${repositoriosPaises[i].sigla},${repositoriosPaises[i].linguagens},${repositoriosPaises[i].TraducaoNome}`;
     datalista.appendChild(option);} }
 function proc(repositoriosPaises){
     var procura=document.getElementById("procura");
