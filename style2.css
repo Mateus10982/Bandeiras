@@ -90,6 +90,7 @@
         height: 1%;
     }
     h2{
+        position:absolute;
         left: 11%;
         color: black;
     }
